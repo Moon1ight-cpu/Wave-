@@ -22,21 +22,24 @@ body {
     color: #01353E;
     position: relative;
 }
+
 .title::after {
     content: "/";
     position: absolute;
     font-size: 72px;
     color: #00B2A0;
-    bottom: -20px;  
+    bottom: -20px;
 }
 
 /*  font-family: 'Raleway', sans-serif; */
+
+
+
 
 .header {
     background: url("../images/Header-bg.jpg") #ccc no-repeat center;
     background-size: cover;
     min-height: 100vh;
-    margin-bottom: 157px;
 }
 
 .header__top {
@@ -91,21 +94,106 @@ body {
 }
 
 
+
+
+
 .about {
-    padding-bottom: 200px;
+    padding: 157px 0 170px;
 }
 
 .about__title {
     margin-bottom: 100px;
     text-align: center;
 }
+
 .about__row {
     display: flex;
     margin-bottom: 30px;
 }
+
 .about__text {
     max-width: 480px;
 }
-.about__text + .about__text {
+
+.about__text+.about__text {
     margin-left: 120px;
+}
+
+
+
+
+.services {
+    padding: 200px 0;
+}
+
+.services__main-title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 103px;
+}
+
+.services__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__item-inner {
+    display: flex;
+    align-items: center;
+    max-width: 220px;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 19px;
+}
+
+.services__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    max-width: 155px;
+    min-height: 56px;
+    margin-left: 10px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.services__text {
+    max-width: 350px;
+}
+
+.services__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.services__scales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.services__scale {
+    display: flex;
+    max-width: 350px;
+}
+.services__scale-percent {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+}
+
+
+
+.services__description {
+    max-width: 600px;
+}
+
+.services__description+.services__description {
+    margin-top: 30px;
 }
