@@ -31,6 +31,10 @@ body {
     bottom: -20px;
 }
 
+.centerer {
+    text-align: center;
+}
+
 /*  font-family: 'Raleway', sans-serif; */
 
 
@@ -127,6 +131,7 @@ body {
 
 .services {
     padding: 200px 0;
+    background-color: #F8F8F8;
 }
 
 .services__main-title {
@@ -207,16 +212,140 @@ body {
 .motivation {
     background: url("../images/motivation.jpg") no-repeat right bottom;
 }
+
 .motivation__inner {
-    padding-top: 200px ;
+    padding-top: 200px;
     padding-bottom: 147px;
 }
+
 .motivation__title {
     margin-bottom: 100px;
 }
+
 .motivation__text p {
     max-width: 507px;
 }
-.motivation__text p + p {
+
+.motivation__text p+p {
     margin-top: 30px;
+}
+
+
+
+.gallery {
+    padding-top: 200px;
+}
+
+.gallery__title {
+    text-align: center;
+    margin-bottom: 212px;
+}
+
+.gallery__filter {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+.gallery__btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.mixitup-control-active {
+    color: #00B2A0;
+}
+
+.gallery__content {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__item {
+    margin: 0 40px 40px 0;
+    max-height: 280px;
+}
+
+.gallery__more {
+    display: inline-block;
+    max-width: 350px;
+    max-height: 70px;
+    padding: 23px 91px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #242121;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 200px;
+}
+
+.gallery__blockquote {
+    background-color: #F8F8F8;
+    padding: 80px 15px;
+    font-style: italic;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.gallery__quote {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.gallery__quote::after {
+    content: "Нэт Янг, первый Чемпион Мира по сёрфингу";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -100px;
+}
+
+
+
+
+.video__preview-img {
+    cursor: pointer;
+    max-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.numbers {
+    padding: 200px 15px;
+}
+
+.numbers__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.numbers__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers__item+.numbers__item {
+    margin-left: 100px;
+}
+
+.numbers__numbers {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #01353E;
+    margin-bottom: 5px;
 }
