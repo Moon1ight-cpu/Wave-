@@ -122,6 +122,9 @@ body {
 
 
 
+
+
+
 .services {
     padding: 200px 0;
 }
@@ -172,15 +175,18 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .services__scales {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .services__scale {
     display: flex;
     max-width: 350px;
 }
+
 .services__scale-percent {
     margin-left: 10px;
     font-weight: 400;
@@ -188,12 +194,29 @@ body {
     line-height: 18px;
 }
 
-
-
 .services__description {
     max-width: 600px;
 }
 
 .services__description+.services__description {
+    margin-top: 30px;
+}
+
+
+
+.motivation {
+    background: url("../images/motivation.jpg") no-repeat right bottom;
+}
+.motivation__inner {
+    padding-top: 200px ;
+    padding-bottom: 147px;
+}
+.motivation__title {
+    margin-bottom: 100px;
+}
+.motivation__text p {
+    max-width: 507px;
+}
+.motivation__text p + p {
     margin-top: 30px;
 }
