@@ -34,7 +34,9 @@ body {
 .centerer {
     text-align: center;
 }
-
+.nowrap {
+    white-space: nowrap;
+}
 /*  font-family: 'Raleway', sans-serif; */
 
 
@@ -455,4 +457,61 @@ body {
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 5px;
+}
+
+
+.price {
+    padding: 200px 15px;
+    background-color: #F8F8F8;
+}
+
+.price__title {
+    text-align: center;
+    margin-bottom: 183px;
+}
+
+.price__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.price__item {
+    max-width: 360px;
+    min-height: 577px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 43px;
+    align-items: center;
+}
+
+.price__item-title {
+    margin-bottom: 58px;
+}
+
+.price__item-title,
+.price__item-price {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #01353E;
+}
+
+.price__item-services {
+    display: flex;
+    flex-direction: column;
+}
+
+.price__item-services span+span {
+    margin-top: 20px;
+}
+
+.price__item-dollars {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.price__item-price {
+    margin-top: auto;
 }
