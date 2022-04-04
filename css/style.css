@@ -386,14 +386,17 @@ body {
     background: url("../images/slider-bg.jpg") no-repeat;
     background-size: cover;
 }
+
 .slider-blog__item-inner {
     display: flex;
     justify-content: flex-end;
 }
+
 .slider-blog__item-inner-inner {
     display: flex;
     flex-direction: column;
 }
+
 .slick-dots {
     display: flex;
     position: absolute;
@@ -415,9 +418,41 @@ body {
 
 .slick-dots button:hover,
 .slick-active button {
-    background-color: #00B2A0; 
+    background-color: #00B2A0;
 }
 
 .slick-dots li+li {
     margin-left: 15px;
+}
+
+.team {
+    padding: 200px 15px 204px;
+}
+
+.team__title {
+    margin-bottom: 212px;
+    text-align: center;
+}
+
+.team__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item__photo {
+    margin-bottom: 25px;
+}
+
+.team__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
 }
