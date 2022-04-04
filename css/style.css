@@ -542,6 +542,7 @@ body {
     max-width: 569px;
     width: 100%;
 }
+
 .connection__form {
     display: flex;
     flex-direction: column;
@@ -601,6 +602,38 @@ body {
     font-size: 24px;
     line-height: 30px;
 }
-.connection__info-text + .connection__info-text {
+
+.connection__info-text+.connection__info-text {
     margin-top: 65px;
+}
+
+
+.footer__social {
+    padding: 200px 0;
+}
+
+.footer__social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__social-item {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+}
+.footer__social-link {
+    color:#242121;
+}
+.green {
+    color: #00B2A0;
+}
+.footer__social-item + .footer__social-item {
+    margin-left: 10px;
+}
+.footer__bot {
+    background-color: #00B2A0;
+    display: flex;
+    justify-content: center;
+    padding: 61px 0 76px;
 }
