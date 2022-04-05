@@ -48,25 +48,34 @@ body {
     background: url("../images/Header-bg.jpg") #ccc no-repeat center;
     background-size: cover;
     min-height: 100vh;
+    padding-top: 35px;
 }
 
-.header__top {
-    padding-top: 35px;
+.header__logo {
+    z-index: 2;
 }
 
 .header__top-inner {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 243px;
 }
 
-.logo {
-    margin-right: 185px;
+.header__button {
+    display: none;
+    margin-left: auto;
+    z-index: 2;
+}
+
+.header__gabmurger-icon {
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
 
 .menu__list {
     display: flex;
-
 }
 
 .menu__list-item+.menu__list-item {
@@ -91,7 +100,7 @@ body {
     align-items: center;
 }
 
-.header__content-img {
+.header__content-logo {
     margin-bottom: 43px;
 }
 
