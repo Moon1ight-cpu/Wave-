@@ -1,4 +1,14 @@
-@media (max-width:975px) {
+@media (max-width:995px) {
+    .title {
+        font-size: 40px;
+        line-height: 58px;
+    }
+
+    .title::after {
+        font-size: 56px;
+        bottom: -15px;
+    }
+
     .logo {
         margin-right: auto;
     }
@@ -11,5 +21,199 @@
     .header__content-description {
         font-size: 18px;
         line-height: 22px;
+    }
+
+
+    .about {
+        padding: 107px 0 120px;
+    }
+
+    .about__title {
+        margin-bottom: 75px;
+    }
+
+    .about__row {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 25px;
+    }
+
+    .about__text {
+        max-width: 430px;
+    }
+
+    .about__text+.about__text {
+        margin-left: 50px;
+    }
+
+
+    .services {
+        padding: 125px 0;
+    }
+
+    .services__main-title {
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+    .services__items {
+        margin-bottom: 83px;
+    }
+
+    .services__item-inner {
+        max-width: 220px;
+        margin-bottom: 15px;
+    }
+
+    .services__text {
+        max-width: 280px;
+    }
+
+    .services__description {
+        max-width: 550px;
+    }
+
+    .motivation {
+        background: url("../images/motivation.jpg") no-repeat right 257px;
+        background-size: 50%;
+    }
+
+    .motivation__inner {
+        padding-top: 125px;
+        padding-bottom: 120px;
+    }
+
+    .motivation__title {
+        margin-bottom: 75px;
+    }
+
+    .motivation__text p {
+        max-width: 407px;
+    }
+
+    .motivation__text p+p {
+        margin-top: 25px;
+    }
+
+
+    .gallery {
+        padding-top: 120px;
+    }
+
+    .gallery__title {
+        margin-bottom: 152px;
+    }
+
+    .gallery__filter {
+        margin-bottom: 40px;
+    }
+
+    .gallery__item {
+        margin: 0 20px 20px 0;
+        max-height: 280px;
+    }
+
+    .gallery__more {
+        margin-bottom: 130px;
+    }
+
+    .gallery__blockquote {
+        padding: 60px 15px;
+        margin-bottom: 130px;
+    }
+
+    .numbers {
+        padding: 130px 15px;
+    }
+
+    .numbers__numbers {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .slider-blog {
+        padding-bottom: 130px;
+    }
+
+    .slider-blog__title {
+        margin-bottom: 140px;
+    }
+
+    .slider-blog__item-title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .slick-dots {
+        right: 38%;
+        bottom: 77px;
+    }
+
+    .team {
+        padding: 130px 15px 130px;
+    }
+
+    .team__title {
+        margin-bottom: 140px;
+    }
+
+    .item__photo {
+        width: 270px;
+    }
+
+    .price {
+        padding: 130px 15px;
+    }
+
+    .price__item-title {
+        margin-bottom: 46px;
+    }
+
+    .price__item {
+        max-width: 300px;
+        min-height: 577px;
+        padding: 35px 43px;
+        align-items: center;
+    }
+
+    .price__item-title {
+        font-size: 30px;
+        margin-bottom: 48px;
+    }
+
+    .price__item-services li {
+        white-space: pre-wrap;
+    }
+
+    .map {
+        padding: 130px 0;
+    }
+
+    .connection__title {
+        margin-bottom: 127px;
+    }
+
+    .connection__form-block {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .connection__info {
+        background-color: #F8F8F8;
+        padding: 49px 152px 71px 52px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .connection__info-text+.connection__info-text {
+        margin-top: 55px;
+    }
+
+    .footer__social {
+        padding: 130px 0;
+    }
+
+    .footer__bot {
+        padding: 45px 0 58px;
     }
 }

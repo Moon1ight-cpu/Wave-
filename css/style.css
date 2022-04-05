@@ -66,7 +66,7 @@ body {
 
 .menu__list {
     display: flex;
-    flex-wrap: wrap;
+
 }
 
 .menu__list-item+.menu__list-item {
@@ -367,7 +367,6 @@ body {
 .slider-blog__title {
     margin-bottom: 229px;
     text-align: center;
-
 }
 
 .slider-blog__item-title {
@@ -440,7 +439,7 @@ body {
 
 .team__items {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     text-align: center;
 }
