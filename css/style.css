@@ -622,15 +622,19 @@ body {
     font-size: 24px;
     line-height: 18px;
 }
+
 .footer__social-link {
-    color:#242121;
+    color: #242121;
 }
+
 .green {
     color: #00B2A0;
 }
-.footer__social-item + .footer__social-item {
+
+.footer__social-item+.footer__social-item {
     margin-left: 10px;
 }
+
 .footer__bot {
     background-color: #00B2A0;
     display: flex;

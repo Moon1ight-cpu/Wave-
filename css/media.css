@@ -1,0 +1,15 @@
+@media (max-width:975px) {
+    .logo {
+        margin-right: auto;
+    }
+
+    .header__content-img {
+        max-width: 500px;
+        margin-bottom: 23px;
+    }
+
+    .header__content-description {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
