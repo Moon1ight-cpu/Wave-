@@ -285,14 +285,16 @@ body {
 }
 
 .gallery__more {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 350px;
     max-height: 70px;
     padding: 23px 91px;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 24px;
-    line-height: 18px;
+    line-height: 28px;
     color: #242121;
     border: 1px solid #C4C4C4;
     margin-bottom: 200px;
@@ -340,7 +342,7 @@ body {
     padding: 200px 15px;
 }
 
-.numbers__inner {
+.numbers__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -448,7 +450,6 @@ body {
 
 .team__items {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     text-align: center;
 }
@@ -585,7 +586,7 @@ body {
 }
 
 .connection__form input::placeholder,
-.connection__form textarea {
+.connection__form textarea::placeholder {
     color: #00B2A0;
     font-weight: 400;
     font-size: 18px;
@@ -635,7 +636,7 @@ body {
     color: #242121;
 }
 
-.green {
+.footer__social-link.green {
     color: #00B2A0;
 }
 

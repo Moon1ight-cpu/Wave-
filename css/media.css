@@ -1,3 +1,26 @@
+@media (max-width:1860px) {
+
+    .motivation {
+        background: none;
+    }
+
+    .motivation__inner {
+        padding-top: 150px;
+        padding-bottom: 127px;
+    }
+
+    .motivation__title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .motivation__text p {
+        max-width: 100%;
+    }
+
+
+}
+
 @media (max-width:1200px) {
     .title {
         font-size: 40px;
@@ -6,12 +29,19 @@
     }
 
     .about,
-    .services {
+    .services,
+    .price,
+    .map,
+    .gallery {
         padding: 125px 0 125px;
     }
 
     .about__title,
-    .services__main-title {
+    .services__main-title,
+    .price__title,
+    .connection__title,
+    .gallery__title,
+    .connection__title {
         margin-bottom: 75px;
     }
 
@@ -26,7 +56,57 @@
     .about__text+.about__text {
         margin-left: 120px;
     }
+
+    .slider-blog {
+        padding-bottom: 150px;
+    }
+
+    .slider-blog__title {
+        margin-bottom: 150px;
+    }
+
+    .slick-dots {
+        right: 40%;
+    }
+
+    .price__items {
+        justify-content: space-around;
+    }
+
+    .price__item {
+        margin-bottom: 30px;
+    }
+
+
+
+    .connection__inner {
+        flex-direction: column;
+    }
+
+    .connection__form-block {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .connection__form-block input[type='submit'] {
+        align-self: center;
+    }
+
+    .connection__info {
+        justify-content: center;
+        padding: 30px 15px;
+    }
+
+    .connection__info-text {
+        max-width: 100%;
+    }
+
+
+    .footer__social {
+        padding: 125px 0;
+    }
 }
+
 
 
 
@@ -45,7 +125,8 @@
     }
 
     .about__title,
-    .services__main-title {
+    .services__main-title,
+    .team__title {
         margin-bottom: 65px;
     }
 
@@ -63,6 +144,22 @@
 
     .services__text {
         max-width: 300px;
+    }
+
+    .team {
+        padding: 150px 15px 150px;
+    }
+
+    .team__items {
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .price__item {
+        max-width: 340px;
+
     }
 }
 
@@ -142,6 +239,19 @@
     .logo {
         margin-right: auto;
     }
+
+    .gallery {
+        padding-top: 100px;
+    }
+
+    .gallery__title {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .gallery__item {
+        margin: 0 30px 30px 0;
+    }
 }
 
 
@@ -176,6 +286,20 @@
     .services__text {
         max-width: 100%;
     }
+
+    .slider-blog__item-title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .slider-blog__item {
+        padding: 214px 15px 251px;
+    }
+
+    .slick-dots {
+        right: 35%;
+    }
+
 }
 
 
@@ -203,7 +327,31 @@
     .about__title {
         margin-bottom: 50px;
     }
+
+    .numbers {
+        padding: 100px 0;
+    }
+
+    .numbers__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .numbers__item+.numbers__item {
+        margin-left: 0;
+    }
+
 }
+
+
+
+
+
+
+
+
+
 
 @media (max-width:750px) {
     .title {
@@ -228,6 +376,32 @@
         font-size: 20px;
         line-height: 24px;
     }
+
+    .gallery__more {
+        margin-bottom: 100px;
+    }
+
+    .gallery__blockquote {
+        padding: 60px 15px;
+        margin-bottom: 100px;
+    }
+
+    .team__items {
+        display: block;
+    }
+
+    .team__item {
+        margin-bottom: 40px;
+    }
+
+    .item__photo {
+        margin-bottom: 15px;
+    }
+
+    .map {
+        padding: 75px 0;
+    }
+
 }
 
 
@@ -241,6 +415,11 @@
 @media (max-width:600px) {
     .about__title {
         max-width: 500px;
+    }
+
+    .centerer {
+        display: flex;
+        justify-content: center;
     }
 
     .header__top-inner {
@@ -277,32 +456,16 @@
         display: block;
     }
 
-
-
-
-
-
-
-
-
-
-
-    @media (max-width:520px) {
-        .header__content-logo {
-            margin-bottom: 23px;
-        }
-
-        .header__content-description {
-            font-size: 16px;
-            line-height: 21px;
-            text-align: center;
-        }
-
-        .about {
-            padding: 65px 0 65px;
-        }
+    .numbers__item {
+        min-width: 40%;
+        margin-bottom: 20px;
     }
 
+    .numbers__numbers {
+        font-size: 48px;
+        line-height: 56px;
+    }
+}
 
 
 
@@ -310,13 +473,40 @@
 
 
 
-    @media (max-width:430px) {
-        .services__main-title,
-        .about__title {
-            max-width: 320px;
-        }
+
+
+@media (max-width:520px) {
+    .header__content-logo {
+        margin-bottom: 23px;
     }
 
+    .header__content-description {
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .about {
+        padding: 65px 0 65px;
+    }
+
+    .slider-blog__title {
+        margin-bottom: 75px;
+    }
+
+    .slider-blog__item-title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .slider-blog__item {
+        padding: 154px 15px 151px;
+    }
+
+    .slick-dots {
+        right: 15%;
+    }
+}
 
 
 
@@ -324,9 +514,72 @@
 
 
 
-    @media only screen and (max-height: 721px) {
-        .header__content-description {
-            color: white;
-        }
+
+@media (max-width:430px) {
+
+    .services__main-title,
+    .about__title,
+    .motivation__title {
+        max-width: 320px;
+    }
+
+    .motivation__inner {
+        padding-top: 70px;
+        padding-bottom: 57px;
+    }
+
+    .slick-dots {
+        right: 5%;
+    }
+
+    .price__item {
+        max-width: 320px;
+    }
+
+    .connection__title {
+        max-width: 240px;
+    }
+
+    .connection__form input[type="submit"] {
+        max-width: 320px;
+    }
+
+    .connection__info {
+        padding: 30px 10px;
+    }
+
+    .connection__info-text {
+        max-width: 320px;
+    }
+
+    .footer__social-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__social-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__social-item {
+        margin-bottom: 20px;
+    }
+
+    .footer__bot {
+        padding: 30px 0 45px;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-height: 721px) {
+    .header__content-description {
+        color: white;
     }
 }
